@@ -2,5 +2,9 @@ __pycache__
 .env
 .history
 .hypothesis/
+.vscode/
 build/
+node_modules/
 reports/
+package.json
+yarn.lock
