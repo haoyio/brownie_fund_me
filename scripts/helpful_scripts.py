@@ -23,8 +23,3 @@ def deploy_mocks():
     if len(MockV3Aggregator) <= 0:
         MockV3Aggregator.deploy(DECIMALS, STARTING_PRICE, {"from": get_account()})
     print("Mock deployed!")
-
-
-"""
-brownie networks add development mainnet-fork-dev cmd=ganache-cli host=http://127.0.0.1 fork='https://eth-mainnet.alchemyapi.io/v2/5cwdrFCEfj9dQX5QpdWr2eWVBL3CUNHS' accounts=10 mnemonic=brownie port=8545
-"""
